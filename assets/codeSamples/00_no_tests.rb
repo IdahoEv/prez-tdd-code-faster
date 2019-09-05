@@ -1,3 +1,4 @@
+
 dictionary = {}
 
 Dir.glob('dict/*-words.*') do |dict_file|
@@ -13,7 +14,6 @@ end
 get '/solve' do
   pattern = params['pattern'].gsub(/ /,'_').chars.to_a
   letters = params['letters'].chars.to_a
-
   permutations = letters.permutation.map do |lets|
     n = 0
     pattern.map do |ch|

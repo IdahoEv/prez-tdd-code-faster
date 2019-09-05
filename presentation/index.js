@@ -1,6 +1,9 @@
 import React from "react";
 import { Deck, Spectacle } from "spectacle";
 import slidify from "../src/slidify.js";
+import codeSlidify from "../src/slidify.js";
+import CodeSlide from 'spectacle-code-slide';
+
 
 // Require CSS
 require("normalize.css");
@@ -104,6 +107,7 @@ export default () => {
               {slidify(Demo.Demo08)}
               {slidify(Demo.Demo09)}
               {slidify(Demo.Demo10)}
+              {slidify(Demo.Demo00)}
               {slidify(Demo.Demo11)}
                         
               {slidify(Outro.Title)}

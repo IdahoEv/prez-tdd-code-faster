@@ -10,6 +10,7 @@ import {
     ListItem,
     CodePane
 } from "spectacle";
+import CodeSlide from "spectacle-code-slide";
 import ShortList from "../src/short-list.js";
 
 import preloader from "spectacle/lib/utils/preloader";
@@ -42,8 +43,11 @@ export const DictDir = {
 
 export const Demo00 = {
   slide: () => 
-    <CodePane lang="ruby" source={require("raw!./../assets/codeSamples/00_no_tests.rb")}  />
-}
+    <CodePane lang="ruby" 
+      transition={[]}
+      source={require("raw!./../assets/codeSamples/00_no_tests.rb")}    
+      />
+};
 export const Demo01 = {
   slide: () => 
     <CodePane lang="ruby" source={require("raw!./../assets/codeSamples/01_dictionary_test.rb")}  />
