@@ -2,7 +2,6 @@
 This repository is the source code for my presentation *Test Driven Development: Write Better Code, Faster*.
 The tool used to write this presentation is [spectacle](https://github.com/FormidableLabs/spectacle) a React based presentation library.
 To build the presentation run `npm run build` or `npm run start` (which starts a server so that you can view the presentation on [http://localhost:3000](http://localhost:3000).
-The latest version of this presentation can be found on [mutation.markredeman.nl](http://mutation.markredeman.nl).
 
 ## Abstract
 
