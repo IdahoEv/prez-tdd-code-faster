@@ -33,63 +33,15 @@ export const Title = {
 
 export const Smart = {
   slide: () =>
-  <Heading size={1} >
-     Programmers are Smart
-  </Heading>
-}
-export const Liability = {
-  slide: () =>
   <div>
-  <Heading size={1} fit>
-     But Intelligence
-  </Heading>
-  <Appear>
-    <Heading size={2} textFont="secondary" margin="1em auto" textColor="secondary">
-       can be a 
+    <Heading size={1} >
+       Programmers are Smart
     </Heading>
-  </Appear>
-  <Appear>
-    <Heading size={2} margin="1em auto" textColor="red" fit>
-       LIABILITY
-    </Heading>
-  </Appear>
-  </div>
-}
-export const Intelligence = {
-  slide: () =>
-  <div>
-  <Heading size={1} fit>
-     Because Intelligence
-  </Heading>
-  <Appear>
-    <Heading size={2} textFont="secondary" margin="1em auto">
-       Enables
-    </Heading>
-  </Appear>
-  </div>
-}
-
-export const Progress = {
-  slide: () =>
-  <div>
-  <Heading size={1} fit>
-     Because Intelligence Enables
-  </Heading>
-  <Appear>
-    <Heading size={1} textColor="secondary">
-       Progress
-    </Heading>
-  </Appear>
-  <Appear>
-    <Heading size={3} >
-       without
-    </Heading>
-  </Appear>
-  <Appear>
-    <Heading size={1} textColor="secondary">
-       Process
-    </Heading>
-  </Appear>
+    <Appear>
+      <Heading size={2} textFont="secondary" margin="1em auto" textColor="secondary">
+         But Smart isnt Enough
+      </Heading>
+    </Appear>
   </div>
 }
 
@@ -111,54 +63,56 @@ export const Professionals = {
   </div>
 }
 
-export const Engineers = {
-  slide: () =>
-  <Image src={images.engineers.replace("/", "")} margin="0" width="100%"></Image>    
-};
-export const Doctors = {
-  slide: () =>
-  <Image src={images.doctors.replace("/", "")} margin="0" width="100%"></Image>    
-};
+// export const Engineers = {
+//   slide: () =>
+//   <Image src={images.engineers.replace("/", "")} margin="0" width="100%"></Image>
+// };
+// export const Doctors = {
+//   slide: () =>
+//   <Image src={images.doctors.replace("/", "")} margin="0" width="100%"></Image>
+// };
+//
+//
+// export const Engineers2 = {
+//   slide: () =>
+//     <div>
+//       <Heading size={1} >
+//          Engineers:
+//       </Heading>
+//       <Heading size={2}>
+//         1. Blueprint
+//       </Heading>
+//       <Heading size={2}>
+//         2. Construction
+//       </Heading>
+//       <Heading size={2}>
+//         3. Inspection
+//       </Heading>
+//     </div>
+// };
+//
+// export const Doctors2 = {
+//   slide: () =>
+//     <div>
+//       <Heading size={1} >
+//         Doctors
+//       </Heading>
+//       <Heading size={2}>
+//         1. Surgical Plan
+//       </Heading>
+//       <Heading size={2}>
+//         2. Surgery
+//       </Heading>
+//       <Heading size={2}>
+//         3. Post-Op
+//       </Heading>
+//     </div>
+// };
 
 
-export const Engineers2 = {
-  slide: () => 
-    <div>
-      <Heading size={1} >
-         Engineers:
-      </Heading>
-      <Heading size={2}>
-        1. Blueprint
-      </Heading>
-      <Heading size={2}>
-        2. Construction
-      </Heading>
-      <Heading size={2}>
-        3. Inspection
-      </Heading>
-    </div>
-};
-
-export const Doctors2 = {
-  slide: () => 
-    <div>
-      <Heading size={1} >
-        Doctors
-      </Heading>
-      <Heading size={2}>
-        1. Surgical Plan
-      </Heading>
-      <Heading size={2}>
-        2. Surgery
-      </Heading>
-      <Heading size={2}>
-        3. Post-Op
-      </Heading>
-    </div>
-};
 
 export const Why0 = {
-  slide: () => 
+  slide: () =>
   <div>
     <Heading size={1} >
       Why does this process work?
@@ -168,7 +122,7 @@ export const Why0 = {
 
 
 export const Why1 = {
-  slide: () => 
+  slide: () =>
   <div>
     <Heading size={1} >
       Separate cognitive work into stages
@@ -180,7 +134,7 @@ export const Why1 = {
 };
 
 export const Why2 = {
-  slide: () => 
+  slide: () =>
   <div>
     <Heading size={1} >
       1. Plan
@@ -192,14 +146,14 @@ export const Why2 = {
     </Appear>
     <Appear>
       <Heading size={3} >
-        ... this is the hardest part!
+        ... and document it!
       </Heading>
     </Appear>
   </div>
 };
 
 export const Why3 = {
-  slide: () => 
+  slide: () =>
   <div>
     <Heading size={1}>
       2. Execute
@@ -209,16 +163,16 @@ export const Why3 = {
         This part is easy now!
       </Heading>
     </Appear>
-    <Appear>  
+    <Appear>
       <Heading size={3}>
-        Because you separated out some complexity
+        You're just following the plan
       </Heading>
     </Appear>
   </div>
 };
 
 export const Why4 = {
-  slide: () => 
+  slide: () =>
   <div>
     <Heading size={1} >
       3. Validate
@@ -231,8 +185,40 @@ export const Why4 = {
   </div>
 };
 
+export const Plan2 = {
+  slide: () =>
+    <table>
+      <thead>
+        <tr>
+          <td></td>
+          <td><Heading size={4}>Plan</Heading></td>
+          <td><Heading size={4}>&nbsp;Execute&nbsp;</Heading></td>
+          <td><Heading size={4}>Validate</Heading></td>
+        </tr>
+      </thead>
+      <tbody>
+      <Appear>
+      <tr>
+        <td>Engineering&nbsp;&nbsp;</td>
+        <td>Blueprint</td>
+        <td>Construct</td>
+        <td>Inspect</td>
+      </tr>
+      </Appear>
+      <Appear>
+      <tr>
+        <td>Surgery&nbsp;&nbsp;</td>
+        <td>Surgical Plan</td>
+        <td>Operation</td>
+        <td>PostOp</td>
+      </tr>
+      </Appear>
+      </tbody>
+    </table>
+};
+
 export const Programmers = {
-  slide: () => 
+  slide: () =>
     <div>
       <Heading size={1} >
         So What About Programming?
@@ -241,7 +227,7 @@ export const Programmers = {
 };
 
 export const Programmers3 = {
-  slide: () => 
+  slide: () =>
     <div>
       <Heading size={1} >
         But writing tests <em>beforehand</em>
@@ -255,7 +241,7 @@ export const Programmers3 = {
 };
 
 export const Validation = {
-  slide: () => 
+  slide: () =>
     <div>
       <Heading size={1} >
         Tests obviously provide
@@ -266,7 +252,7 @@ export const Validation = {
 };
 
 export const TDDDefined = {
-  slide: () => 
+  slide: () =>
     <div>
       <Heading size={1}>
         TDD Defined:
@@ -279,12 +265,12 @@ export const TDDDefined = {
         <Appear><ListItem>Refactor code</ListItem></Appear>
         <Appear><ListItem>Run the test, observe that it passes</ListItem></Appear>
       </List>
-    </div>      
+    </div>
 };
 
 
 export const TDDDefined2 = {
-  slide: () => 
+  slide: () =>
     <div>
       <Heading size={1}>
         TDD Defined:
@@ -292,14 +278,5 @@ export const TDDDefined2 = {
       <Appear><Heading size={2} textColor="red">Red</Heading></Appear>
       <Appear><Heading size={2}>Green</Heading></Appear>
       <Appear><Heading size={2} textColor="black">Refactor</Heading></Appear>
-    </div>      
+    </div>
 };
-
-
-
-
-
-  
-
-
-

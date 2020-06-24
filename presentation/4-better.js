@@ -32,7 +32,7 @@ export const Title = {
 };
 
 export const Starting = {
-  slide: () => 
+  slide: () =>
     <div>
       <Heading size={1} >
         Starting to code before you plan
@@ -51,7 +51,7 @@ export const Starting = {
 };
 
 export const Planning = {
-  slide: () => 
+  slide: () =>
     <div>
       <Heading size={1} >
         Planning: Organizes your thoughts
@@ -70,7 +70,7 @@ export const Planning = {
 };
 
 export const Testability = {
-  slide: () => 
+  slide: () =>
     <div>
       <Heading size={1} >
         Testable code
@@ -89,7 +89,7 @@ export const Testability = {
 };
 
 export const CleanCode = {
-  slide: () => 
+  slide: () =>
     <div>
       <Heading size={1} >
         Clean Code:
@@ -113,55 +113,39 @@ export const CleanCode = {
 };
 
 export const DeepIf = {
-  slide: () => 
+  slide: () =>
     <CodePane lang="javascript" source={require("raw!./../assets/codeSamples/deep_if.example")}  />
 };
 
-export const CyclomaticComplexity = {
-  slide: () => 
+export const Spaghetti1 = {
+  slide: () =>
     <div>
       <Heading size={1} fit>
-        Cyclomatic Complexity
+        Can't Test Spaghetti
       </Heading>
       <Appear>
         <Heading size={2} fit>
-          The number of code paths through a function
-        </Heading>
-      </Appear>
-      <Appear>
-        <Heading size={3} textColor="black">
-          The <em>minimum</em> # of examples to prove correctness
+          Because it's too complicated<br /> to write tests for
         </Heading>
       </Appear>
     </div>
 };
 
-export const CleanCode3 = {
-  slide: () => 
+export const Spaghetti2 = {
+  slide: () =>
     <div>
-      <Heading size={1} >
-        Writing Tests First
+      <Heading size={1} fit>
+        Therefore:
       </Heading>
       <Appear>
-        <Heading size={2} >
-           <em>Implicitly</em> results in small, well-defined functions       
+        <Heading size={2} fit>
+          If you write the tests beforehand
         </Heading>
       </Appear>
-    </div>
-};
-
-export const CleanCode4 = {
-  slide: () => 
-    <div>
-      <Heading size={1} lineHeight={1.5} fit>
-        A test <em>describes</em> your code
-      </Heading>
       <Appear>
-        <Heading size={2} >
-        Therefore your code will be <em>describable</em>
+        <Heading size={3} fit>
+          Your implementation<br />wont be spaghettified
         </Heading>
       </Appear>
     </div>
 };
-
-

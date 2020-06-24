@@ -29,48 +29,38 @@ export default () => {
       <Spectacle theme={theme}>
           <Deck transition={["slide"]} transitionDuration={350}>
               {slidify(Title.Title)}
-              
+
               {slidify(Intro.Title)}
               {slidify(Intro.Demand)}
               {slidify(Intro.Workflow1)}
               {slidify(Intro.Stress)}
               {slidify(Intro.Fortunately)}
-              
+
               {slidify(Plan.Title)}
-              {slidify(Plan.Smart)}
-              {slidify(Plan.Liability)}
-              {slidify(Plan.Progress)}
               {slidify(Plan.Professionals)}
-              {slidify(Plan.Engineers)}
-              {slidify(Plan.Doctors)}
-              {slidify(Plan.Engineers2)}
-              {slidify(Plan.Doctors2)}
-              {slidify(Plan.Why0)}
-              {slidify(Plan.Why1)}
               {slidify(Plan.Why2)}
               {slidify(Plan.Why3)}
               {slidify(Plan.Why4)}
+              {slidify(Plan.Plan2)}
               {slidify(Plan.Programmers)}
               {slidify(Plan.Validation)}
-              
+
               {slidify(TDD.Title)}
               {slidify(TDD.Quip)}
               {slidify(TDD.Defined)}
               {slidify(TDD.Defined2)}
               {slidify(TDD.Defined3)}
               {slidify(TDD.SoftwareEngineering)}
-              
+
               {slidify(Better.Title)}
               {slidify(Better.Starting)}
               {slidify(Better.Planning)}
               {slidify(Better.Testability)}
               {slidify(Better.CleanCode)}
               {slidify(Better.DeepIf)}
-              {slidify(Better.CyclomaticComplexity)}
-              {slidify(Better.DeepIf)}
-              {slidify(Better.CleanCode3)}
-              {slidify(Better.CleanCode4)}
-              
+              {slidify(Better.Spaghetti1)}
+              {slidify(Better.Spaghetti2)}
+
               {slidify(Faster.Title)}
               {slidify(Faster.Speed)}
               {slidify(Faster.OldTimeline)}
@@ -86,30 +76,13 @@ export default () => {
               {slidify(Faster.DeepIf)}
               {slidify(Faster.SpeedBenefits)}
 
-              
+
               {slidify(Caveats.Title)}
               {slidify(Caveats.MasteringTakesTime)}
               {slidify(Caveats.NotForEverything)}
               {slidify(Caveats.ExploratoryCoding)}
               {slidify(Caveats.ExploratoryCoding2)}
 
-              {slidify(Demo.Title)}
-              {slidify(Demo.Task)}
-              {slidify(Demo.DictDir)}
-              {slidify(Demo.Demo00)}
-              {slidify(Demo.Demo01)}
-              {slidify(Demo.Demo02)}
-              {slidify(Demo.Demo03)}
-              {slidify(Demo.Demo04)}
-              {slidify(Demo.Demo05)}
-              {slidify(Demo.Demo06)}
-              {slidify(Demo.Demo07)}
-              {slidify(Demo.Demo08)}
-              {slidify(Demo.Demo09)}
-              {slidify(Demo.Demo10)}
-              {slidify(Demo.Demo00)}
-              {slidify(Demo.Demo11)}
-                        
               {slidify(Outro.Title)}
           </Deck>
       </Spectacle>
